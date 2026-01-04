@@ -22,35 +22,61 @@ function Home() {
         <div className="card-body">
           <h4>🎯 Objective</h4>
           <p>
-           Insurance Specialist with 2 years of expertise in U.S. P&C New Business submissions. 
-           Committed to delivering high-quality quotes and managing high-volume workloads. 
-           Looking for a role that offers the opportunity to enhance 
-           my technical skills in risk evaluation and policy management 
-           within a professional environment 
-
+            Insurance Specialist with 2 years of expertise in U.S. P&C New Business submissions. 
+            Committed to delivering high-quality quotes and managing high-volume workloads. 
+            Looking for a role that offers the opportunity to enhance 
+            my technical skills in risk evaluation and policy management 
+            within a professional environment 
           </p>
         </div>
       </div>
 
       <div className="row">
+        {/* Work Experience */}
         <SectionCard
           title="Work Experience"
-          text="Professional roles and responsibilities"
+          text={
+            <>
+              Professional roles and responsibilities. <br />
+              <span className="text-primary fw-bold">Click Here for more details →</span>
+            </>
+          }
           route="/experience"
         />
+
+        {/* Education */}
         <SectionCard
           title="Education"
-          text="Academic qualifications"
+          text={
+            <>
+              Academic qualifications. <br />
+              <span className="text-primary fw-bold">Click Here for more details →</span>
+            </>
+          }
           route="/education"
         />
+
+        {/* Freelancing, Internships and Certificates */}
         <SectionCard
-          title="Freelancing Work , Internships and Certificates"
-          text="Training & internship experience"
+          title="Freelancing Work, Internships and Certificates"
+          text={
+            <>
+              Training, projects, and certifications. <br />
+              <span className="text-primary fw-bold">Click Here for more details →</span>
+            </>
+          }
           route="/internships"
         />
+
+        {/* Hobbies */}
         <SectionCard
           title="Hobbies"
-          text="Personal interests"
+          text={
+            <>
+              Personal interests. <br />
+              <span className="text-primary fw-bold">Click Here for more details →</span>
+            </>
+          }
           route="/hobbies"
         />
       </div>
