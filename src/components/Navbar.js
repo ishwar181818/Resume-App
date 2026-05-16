@@ -23,7 +23,7 @@ function Navbar() {
 
           {/* Resume Download Button */}
           <a 
-            href="/Ishwar_Harbade_Resume.pdf" 
+            href="/Ishwar_Harbade_Resume_2026_May.pdf" 
             download 
             className="btn btn-primary btn-sm fw-bold px-3 rounded-pill"
           >

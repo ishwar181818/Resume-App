@@ -26,7 +26,7 @@ function Footer() {
               <li className="mb-3 d-flex align-items-start">
                 <span className="me-3 fw-bold text-primary">2.</span>
                 <a 
-                  href="/Ishwar_Harbade_Resume.pdf" 
+                  href="/Ishwar_Harbade_Resume_2026_May.pdf" 
                   download 
                   className="text-decoration-none text-white transition-link"
                 >
